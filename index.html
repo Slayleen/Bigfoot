@@ -7,7 +7,7 @@
     <script>
     function moveBigFoot() {
         alert('Woohoo, you win! You found Bigfoot!')
-        var picture = document.getElementById('bigFoot')
+        var picture = document.getElementById('bigfoot')
 
         var x = Math.random()*300;
         var y = Math.random()*300;
@@ -16,11 +16,11 @@
         }
 
         function loadBigFoot() {
-  document.getElementById('bigFoot').src = 'bigfoot.png'
+  document.getElementById('bigfoot').src = 'bigfoot.png'
 }
  </script>
    
-    <img id="bigFoot" src="bigfoot.png" onclick="moveBigFoot()" />
+    <img id="bigfoot" src="bigfoot.png" onclick="moveBigFoot()" />
     
   </body>
 </html>
